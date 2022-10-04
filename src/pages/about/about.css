@@ -1,0 +1,42 @@
+.about_wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    /* height: 100%; */
+}
+
+.about_lotie{
+    height: 200px;
+    width: 200px;
+}
+
+.about_inner{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about_title{
+    color: #06B5DC;
+    font-size: 4rem;
+    font-weight: 800;
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+    .about_title{
+        color: #06B5DC;
+        font-size: 3rem;
+        font-weight: 800;
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
