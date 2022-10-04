@@ -14,7 +14,7 @@
     margin: 0 auto;
     background-color: white;
     /* border: 10px solid #6f6fff; */
-    height: 80vh;
+    height: 80vh !important;
     border-radius: 20px;
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
